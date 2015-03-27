@@ -33,6 +33,8 @@ var server = thrift.createServer(Proxy, {
     if(find == -1){ // No
       console.log("GET "+url);
       request({method: 'GET', uri: url, jar: true}, function (error, response, body) {
+        if(error) throw error;
+        console.log("STATUSCODE: "+ response.statusCode);
         console.log("Serving from web and caching: "+url);
         
         if(cache.size + body.length > g_cacheSize){ // Eviction needed, which policy?
@@ -48,10 +50,12 @@ var server = thrift.createServer(Proxy, {
             i = cache.time.binarySearchFast(sorted[0]);
             // Element i has the lowest timestamp
           } else console.log("Unknown policy, defaulting to FIFO.");
-          cache.size -= cache.content[i].length;
-          cache.content.splice(i,1);
-          cache.url.splice(i,1);
-          cache.time.splice(i,1);
+          if(cache.content[i]){
+            cache.size -= cache.content[i].length;
+            cache.content.splice(i,1);
+            cache.url.splice(i,1);
+            cache.time.splice(i,1);
+          }
           console.log("Cache eviction performed");
         }
         cache.url.push(url);
@@ -71,25 +75,23 @@ var server = thrift.createServer(Proxy, {
   }
 },{});
 
-Array.prototype.binarySearchFast = function(find) {
-  var size = this.length,
-      high = size -1,
-      low = 0;
-  
-  while (high > low) {
-    
-    if (this[low] === find) return low;
-    else if (this[high] === find) return high;
+Array.prototype.binarySearchFast = function(value) {
+  var startIndex = 0,
+        stopIndex = this.length - 1,
+        middle = Math.floor((stopIndex + startIndex) / 2);
 
-    target = (((find - this[low]) / (this[high] - this[low])) * (high - low)) >>> 0;
+  while (this[middle] != value && startIndex < stopIndex) {
+    if (value < this[middle]) stopIndex = middle - 1;
+    else if (value > this[middle]) startIndex = middle + 1;
 
-    if (this[target] === find) return target;
-    else if (find > this[target]) low = target + 1, high--;
-    else high = target - 1, low++;
+    //recalculate middle
+    middle = Math.floor((stopIndex + startIndex) / 2);
   }
-  
-  return -1;
+  return (this[middle] != value) ? -1 : middle;
 };
+
+
+    
 
 Array.prototype.quickSort = function () {
     if (this.length <= 1)
