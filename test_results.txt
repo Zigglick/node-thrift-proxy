@@ -36,6 +36,49 @@ Cache Size: 9000000  Policy: LRU Avg. Time: 71.43333333333334 ms
 
 
 
+node test-crawler.js
+Workload Mode: Random crawler (user behavior)
+Cache Eviction Mode: RAND
+Cache Size: -1  Policy: RAND Avg. Time: 177.33333333333334 ms
+Cache Size: 1000000  Policy: RAND Avg. Time: 172.23333333333332 ms
+Cache Size: 2000000  Policy: RAND Avg. Time: 31.033333333333335 ms
+Cache Size: 3000000  Policy: RAND Avg. Time: 248.2 ms
+Cache Size: 4000000  Policy: RAND Avg. Time: 181.16666666666666 ms
+Cache Size: 5000000  Policy: RAND Avg. Time: 82 ms
+Cache Size: 6000000  Policy: RAND Avg. Time: 141.7 ms
+Cache Size: 7000000  Policy: RAND Avg. Time: 52.53333333333333 ms
+Cache Size: 8000000  Policy: RAND Avg. Time: 146.73333333333332 ms
+Cache Size: 9000000  Policy: RAND Avg. Time: 862.5666666666667 ms
+1
+Cache Eviction Mode: FIFO
+Cache Size: -1  Policy: FIFO Avg. Time: 190.63333333333333 ms
+Cache Size: 1000000  Policy: FIFO Avg. Time: 70.2 ms
+Cache Size: 2000000  Policy: FIFO Avg. Time: 200.13333333333333 ms
+Cache Size: 3000000  Policy: FIFO Avg. Time: 77.13333333333334 ms
+Cache Size: 4000000  Policy: FIFO Avg. Time: 82.16666666666667 ms
+Cache Size: 5000000  Policy: FIFO Avg. Time: 85.03333333333333 ms
+Cache Size: 6000000  Policy: FIFO Avg. Time: 84.56666666666666 ms
+Cache Size: 7000000  Policy: FIFO Avg. Time: 75.53333333333333 ms
+Cache Size: 8000000  Policy: FIFO Avg. Time: 80.7 ms
+Cache Size: 9000000  Policy: FIFO Avg. Time: 254.06666666666666 ms
+2
+Cache Eviction Mode: LRU
+Cache Size: -1  Policy: LRU Avg. Time: 800.5 ms
+Cache Size: 1000000  Policy: LRU Avg. Time: 82.73333333333333 ms
+Cache Size: 2000000  Policy: LRU Avg. Time: 174.2 ms
+Cache Size: 3000000  Policy: LRU Avg. Time: 18.2 ms
+Cache Size: 4000000  Policy: LRU Avg. Time: 101.76666666666667 ms
+Cache Size: 5000000  Policy: LRU Avg. Time: 151.7 ms
+Cache Size: 6000000  Policy: LRU Avg. Time: 178.66666666666666 ms
+Cache Size: 7000000  Policy: LRU Avg. Time: 129.23333333333332 ms
+Cache Size: 8000000  Policy: LRU Avg. Time: 118.2 ms
+Cache Size: 9000000  Policy: LRU Avg. Time: 16.433333333333334 ms
+3
+
+
+
+
+
 
 node test-random.js
 Workload Mode: Random Select
