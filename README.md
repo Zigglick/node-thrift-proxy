@@ -6,7 +6,7 @@ Launch server:
 cd RPCProxyServer/ && node app.js
 
 Launch client:
-cd RPCPoxyClient/ && ./bin.www
+cd RPCPoxyClient/ && node ./bin/www
 
 Lanch web browser at:
 http://localhost:3000/proxy/[caching policy]/[cache size]/[domain name]
