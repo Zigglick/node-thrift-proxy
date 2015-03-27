@@ -1,6 +1,5 @@
 # node-thrift-proxy
-School project
-
+Advanced OS Project 3
 
 Launch server:
 cd RPCProxyServer/ && node app.js
@@ -8,7 +7,23 @@ cd RPCProxyServer/ && node app.js
 Launch client:
 cd RPCPoxyClient/ && node ./bin/www
 
-Lanch web browser at:
+Run testing scripts:
+cd RPCProxyClient/
+
+Then
+
+node test-random.js
+
+or
+
+node test-backforth.js
+
+
+or
+
+node test-crawler.js
+
+Alternatively, to actually use the proxy, launch web browser at:
 http://localhost:3000/proxy/[caching policy]/[cache size]/[domain name]
 
 eg.
