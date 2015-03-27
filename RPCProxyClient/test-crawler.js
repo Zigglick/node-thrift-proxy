@@ -7,7 +7,7 @@ var request = require('request');
   var POLICY =["RAND","FIFO","LRU"];
   var SEED = "reddit.com";
   
-  console.log("Workload Mode: Random Select");
+  console.log("Workload Mode: Random crawler (user behavior)");
   var ms = 0, p = 0, c = 0, i = 0;
   var inter;
   var url = SEED;
