@@ -1,0 +1,74 @@
+node test-crawler.js 
+Workload Mode: Random crawler (user behavior)
+Cache Eviction Mode: RAND
+Cache Size: 1000000  Policy: RAND Avg. Time: 199.76666666666668 ms
+Cache Size: 2000000  Policy: RAND Avg. Time: 60.766666666666666 ms
+Cache Size: 3000000  Policy: RAND Avg. Time: 85.6 ms
+Cache Size: 4000000  Policy: RAND Avg. Time: 120.66666666666667 ms
+Cache Size: 5000000  Policy: RAND Avg. Time: 64.5 ms
+Cache Size: 6000000  Policy: RAND Avg. Time: 108.16666666666667 ms
+Cache Size: 7000000  Policy: RAND Avg. Time: 83.73333333333333 ms
+Cache Size: 8000000  Policy: RAND Avg. Time: 97.3 ms
+Cache Size: 9000000  Policy: RAND Avg. Time: 127.73333333333333 ms
+1
+Cache Eviction Mode: FIFO
+Cache Size: 1000000  Policy: FIFO Avg. Time: 138.03333333333333 ms
+Cache Size: 2000000  Policy: FIFO Avg. Time: 159.5 ms
+Cache Size: 3000000  Policy: FIFO Avg. Time: 91.33333333333333 ms
+Cache Size: 4000000  Policy: FIFO Avg. Time: 79.56666666666666 ms
+Cache Size: 5000000  Policy: FIFO Avg. Time: 109.53333333333333 ms
+Cache Size: 6000000  Policy: FIFO Avg. Time: 123.33333333333333 ms
+Cache Size: 7000000  Policy: FIFO Avg. Time: 286.43333333333334 ms
+Cache Size: 8000000  Policy: FIFO Avg. Time: 493.53333333333336 ms
+Cache Size: 9000000  Policy: FIFO Avg. Time: 84.66666666666667 ms
+2
+Cache Eviction Mode: LRU
+Cache Size: 1000000  Policy: LRU Avg. Time: 328.93333333333334 ms
+Cache Size: 2000000  Policy: LRU Avg. Time: 298.8333333333333 ms
+Cache Size: 3000000  Policy: LRU Avg. Time: 164 ms
+Cache Size: 4000000  Policy: LRU Avg. Time: 87.93333333333334 ms
+Cache Size: 5000000  Policy: LRU Avg. Time: 42.733333333333334 ms
+Cache Size: 6000000  Policy: LRU Avg. Time: 133.4 ms
+Cache Size: 7000000  Policy: LRU Avg. Time: 95.7 ms
+Cache Size: 8000000  Policy: LRU Avg. Time: 71.4 ms
+Cache Size: 9000000  Policy: LRU Avg. Time: 71.43333333333334 ms
+
+
+
+
+
+node test-random.js
+Workload Mode: Random Select
+Cache Eviction Mode: RAND
+Cache Size: 1000000  Policy: RAND Avg. Time: 1193.4333333333334 ms
+Cache Size: 2000000  Policy: RAND Avg. Time: 736.9666666666667 ms
+Cache Size: 3000000  Policy: RAND Avg. Time: 604.5333333333333 ms
+Cache Size: 4000000  Policy: RAND Avg. Time: 617.2666666666667 ms
+Cache Size: 5000000  Policy: RAND Avg. Time: 805.0666666666667 ms
+Cache Size: 6000000  Policy: RAND Avg. Time: 649.1666666666666 ms
+Cache Size: 7000000  Policy: RAND Avg. Time: 697.5333333333333 ms
+Cache Size: 8000000  Policy: RAND Avg. Time: 449.23333333333335 ms
+Cache Size: 9000000  Policy: RAND Avg. Time: 906.2333333333333 ms
+1
+Cache Eviction Mode: FIFO
+Cache Size: 1000000  Policy: FIFO Avg. Time: 1268.2 ms
+Cache Size: 2000000  Policy: FIFO Avg. Time: 993.3333333333334 ms
+Cache Size: 3000000  Policy: FIFO Avg. Time: 651.6 ms
+Cache Size: 4000000  Policy: FIFO Avg. Time: 574.7333333333333 ms
+Cache Size: 5000000  Policy: FIFO Avg. Time: 690.7333333333333 ms
+Cache Size: 6000000  Policy: FIFO Avg. Time: 655 ms
+Cache Size: 7000000  Policy: FIFO Avg. Time: 432.3333333333333 ms
+Cache Size: 8000000  Policy: FIFO Avg. Time: 329.03333333333336 ms
+Cache Size: 9000000  Policy: FIFO Avg. Time: 1210.2666666666667 ms
+2
+Cache Eviction Mode: LRU
+Cache Size: 1000000  Policy: LRU Avg. Time: 448.56666666666666 ms
+Cache Size: 2000000  Policy: LRU Avg. Time: 1004.6666666666666 ms
+Cache Size: 3000000  Policy: LRU Avg. Time: 623.4666666666667 ms
+Cache Size: 4000000  Policy: LRU Avg. Time: 743.7666666666667 ms
+Cache Size: 5000000  Policy: LRU Avg. Time: 784.1666666666666 ms
+Cache Size: 6000000  Policy: LRU Avg. Time: 1058.7666666666667 ms
+Cache Size: 7000000  Policy: LRU Avg. Time: 983.3333333333334 ms
+Cache Size: 8000000  Policy: LRU Avg. Time: 853.7 ms
+Cache Size: 9000000  Policy: LRU Avg. Time: 690.8 ms
+3

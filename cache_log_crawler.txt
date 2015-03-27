@@ -1,0 +1,511 @@
+GET http://www.google.com
+STATUSCODE: 200
+Serving from web and caching: http://www.google.com
+Current cache size: 570038
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com' ]
+Serving from cache (updating timestamp): http://www.google.com
+Current cache size: 570038
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com' ]
+GET http://maps.google.com
+STATUSCODE: 200
+Serving from web and caching: http://maps.google.com
+Current cache size: 743907
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com' ]
+Serving from cache (updating timestamp): http://www.google.com
+Current cache size: 743907
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com' ]
+GET http://translate.google.com
+STATUSCODE: 200
+Serving from web and caching: http://translate.google.com
+Current cache size: 800971
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com' ]
+Serving from cache (updating timestamp): http://www.google.com
+Current cache size: 800971
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com' ]
+Serving from cache (updating timestamp): http://www.google.com
+Current cache size: 800971
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com' ]
+GET http://www.youtube.com
+STATUSCODE: 200
+Serving from web and caching: http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 8000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://b.thumbs.redditmedia.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://maps.google.com',
+  'http://translate.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1128944
+Max cache size: 9000000
+Caching policy: LRU
+New cache size
+[]
+GET http://reddit.com
+STATUSCODE: 200
+Serving from web and caching: http://reddit.com
+Current cache size: 108741
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com' ]
+GET http://www.reddit.com
+STATUSCODE: 200
+Serving from web and caching: http://www.reddit.com
+Current cache size: 217482
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com', 'http://www.reddit.com' ]
+Serving from cache (updating timestamp): http://www.reddit.com
+Current cache size: 217482
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com', 'http://www.reddit.com' ]
+GET http://www.reddit.com:80
+STATUSCODE: 200
+Serving from web and caching: http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com:80
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+Serving from cache (updating timestamp): http://www.reddit.com
+Current cache size: 326223
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80' ]
+GET http://imgur.com
+STATUSCODE: 200
+Serving from web and caching: http://imgur.com
+Current cache size: 464586
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com' ]
+GET http://imgur.com
+STATUSCODE: 200
+Serving from web and caching: http://imgur.com
+Current cache size: 602949
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com' ]
+GET http://imgur.com
+STATUSCODE: 200
+Serving from web and caching: http://imgur.com
+Current cache size: 741312
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com' ]
+GET http://imgur.com
+STATUSCODE: 200
+Serving from web and caching: http://imgur.com
+Current cache size: 879675
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com' ]
+Serving from cache (updating timestamp): http://imgur.com
+Current cache size: 879675
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com' ]
+Serving from cache (updating timestamp): http://imgur.com
+Current cache size: 879675
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com' ]
+GET http://feeds.feedburner.com
+STATUSCODE: 200
+Serving from web and caching: http://feeds.feedburner.com
+Current cache size: 930708
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com' ]
+GET http://www.google.com
+STATUSCODE: 200
+Serving from web and caching: http://www.google.com
+Current cache size: 984932
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com' ]
+GET http://www.youtube.com
+STATUSCODE: 200
+Serving from web and caching: http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 9000000
+Caching policy: LRU
+[ 'http://reddit.com',
+  'http://www.reddit.com',
+  'http://www.reddit.com:80',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://imgur.com',
+  'http://feeds.feedburner.com',
+  'http://www.google.com',
+  'http://www.youtube.com' ]
+Serving from cache (updating timestamp): http://www.youtube.com
+Current cache size: 1312907
+Max cache size: 10000000
+Caching policy: LRU
+New cache size
+[]
+GET http://reddit.com
+STATUSCODE: 200
+Serving from web and caching: http://reddit.com
+Current cache size: 108741
+
+
