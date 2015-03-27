@@ -30,7 +30,7 @@ var server = thrift.createServer(Proxy, {
     var find = cache.url.binarySearchFast(url);
     
     
-    if(find == -1){ // No
+    if(find == -1 || cacheSize == -1){ // No
       console.log("GET "+url);
       request({method: 'GET', uri: url, jar: true}, function (error, response, body) {
         if(error) throw error;
