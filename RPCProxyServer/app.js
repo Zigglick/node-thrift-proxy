@@ -4,9 +4,9 @@ var request = require('request');
 
 var g_cacheSize = 0;
 var cache = {};
-cache.url = [null];
-cache.content = [null];
-cache.time = [null];
+cache.url = [];
+cache.content = [];
+cache.time = [];
 cache.size = 0;
 
 var server = thrift.createServer(Proxy, {
